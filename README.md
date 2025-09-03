@@ -1,16 +1,22 @@
 # Use Claude Code to Explore and Develop the project 
 
 ### initialize the context
+/clear
 /init: generate the CLAUDE.md to understand how this project works 
 
 ### specify file to the current context 
 > use @src/audios/chest_open.mp3 in the @src/App.tsx to play the sound effect of the chest being opened
 
 ### add more to the context
+> check the comments of existing changes
+
 type '#' first 
 "add comments on the top of every new function in one line to summarize the usage" 
+> 2. Project memory
 
 > use @src/audios/chest_open_with_evil_laugh.mp3 in the @src/App.tsx to play the sound effect of the chest with skeleton inside being opened  
+
+> check the comments of existing changes
 
 ### use screenshot to develop intuitively 
 > [!image] show the results to be either: win, tie, loss in the circled place according to the final score 

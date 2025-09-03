@@ -1,9 +1,11 @@
 import { useState, useEffect } from 'react';
 import { motion } from 'motion/react';
 import { Button } from './components/ui/button';
-import closedChest from 'figma:asset/treasure_closed.png';
-import treasureChest from 'figma:asset/treasure_opened.png';
-import skeletonChest from 'figma:asset/treasure_opened_skeleton.png';
+import closedChest from './assets/treasure_closed.png';
+import treasureChest from './assets/treasure_opened.png';
+import skeletonChest from './assets/treasure_opened_skeleton.png';
+import chestOpenSound from './audios/chest_open.mp3';
+import evilLaughSound from './audios/chest_open_with_evil_laugh.mp3';
 
 interface Box {
   id: number;
