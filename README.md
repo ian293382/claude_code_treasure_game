@@ -1,5 +1,6 @@
 # Use Claude Code to Explore and Develop the project 
 ### Download the zip file of branch 'initial'
+https://github.com/uopsdod/claude_code_treasure_game/tree/initial
 
 ### initialize the context
 /clear
